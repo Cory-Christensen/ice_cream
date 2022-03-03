@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: coding-interview_development
+
+test:
+  <<: *default
+  database: coding-interview_test
+
+production:
+  <<: *default
+  database: coding-interview_production

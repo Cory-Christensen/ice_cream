@@ -1,0 +1,2 @@
+class ToppingInventory < ApplicationRecord
+end

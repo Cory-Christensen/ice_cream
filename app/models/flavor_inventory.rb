@@ -1,0 +1,2 @@
+class FlavorInventory < ApplicationRecord
+end

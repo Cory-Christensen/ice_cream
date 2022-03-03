@@ -1,0 +1,2 @@
+class IceCreamMachine < ApplicationRecord
+end
